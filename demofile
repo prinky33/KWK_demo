@@ -1,0 +1,14 @@
+# Welcome to our Python code-along session! Today, we'll be practicing conditional statements.
+
+# Step 1: Let's define the driving speed.
+drivingSpeed = int(input("Please enter your driving speed in mph: "))
+
+# Step 2: Now, let's assess the driving speed and provide feedback.
+if drivingSpeed <= 55:
+    print("You are driving within the speed limit.")
+elif drivingSpeed >= 56 and drivingSpeed <= 65:
+    print("You are driving slightly above the speed limit.")
+else:
+    print("You are driving considerably above the speed limit.")
+
+# Great job everyone! Feel free to ask any questions or share your thoughts in the chat.
